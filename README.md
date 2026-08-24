@@ -127,7 +127,7 @@ docker run -d \
 ### 1. Baixar a imagem
 
 ```bash
-docker pull SEU_USUARIO_DOCKERHUB/cinema-api:1.0
+docker pull amilzera/cinema-api-final:1.0
 ```
 
 ### 2. Executar o container
@@ -142,7 +142,7 @@ docker run -d \
   -e DB_SCHEMA=cinema_db \
   -e DB_USER=<usuario> \
   -e DB_PWD=<senha> \
-  SEU_USUARIO_DOCKERHUB/cinema-api:1.0
+  amilzera/cinema-api-final:1.0
 ```
 
 A aplicação ficará disponível em `http://localhost:8080`.
@@ -153,9 +153,8 @@ A aplicação ficará disponível em `http://localhost:8080`.
 
 Com a aplicação em execução, acesse:
 
-```
 http://localhost:8080/swagger-ui.html
-```
+
 
 ---
 
