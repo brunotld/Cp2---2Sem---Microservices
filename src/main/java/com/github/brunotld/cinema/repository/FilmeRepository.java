@@ -13,6 +13,7 @@ public interface FilmeRepository extends JpaRepository<Filme, Long> {
 
     List<Filme> findAll();
 
+    @SuppressWarnings("unchecked")
     Filme save(Filme filme);
 
     void deleteById(Long id);

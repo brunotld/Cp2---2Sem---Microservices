@@ -13,6 +13,7 @@ public interface SalaRepository extends JpaRepository<Sala, Long> {
 
     Optional<Sala> findById(Long id);
 
+    @SuppressWarnings("unchecked")
     Sala save(Sala sala);
 
     boolean existsById(Long id);
